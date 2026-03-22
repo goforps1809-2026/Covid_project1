@@ -42,15 +42,16 @@ or load data using pandas)
 - Join covid and vaccination tables on location and date. 
 - Vaccination doses rolled = sum(new_cases) OVER (PARTITION BY location ORDER BY date)
 
-##**Key Insights** - 
-- **Us, India,France among few countres with highest covid cases and deaths**. 
+**Key Insights** - 
+
+**Us, India,France among few countres with highest covid cases and deaths**. 
 - 32346954	576232	United States	North America
 - 19164913	211853	India	Asia
 - 14658811	403781	Brazil	South America
 - 5677824	104675	France	Europe
 - 4750608	108290	Russia	Europe
 
-- **Continents have atleast 2% mortality rate, and Asia with 1.34%**
+**Continents have atleast 2% mortality rate, and Asia with 1.34%**
 - 2.7	South America
 - 2.67	Africa
 - 2.4	Oceania
@@ -58,7 +59,7 @@ or load data using pandas)
 - 2.26	North America
 - 1.34	Asia
 
-- **Europe have the highest infection rate per population**
+**Europe have the highest infection rate per population**
 - Europe	Andorra	77265	17.13
 - Europe	Montenegro	628062	15.51
 - Europe	Czechia	10708982	15.23
@@ -67,35 +68,35 @@ or load data using pandas)
 - Europe	Luxembourg	625976	10.74
 - Asia	Bahrain	1701583	10.4
 
-- **Us, India,France among few countries with high recovery numbers**
+**Us, India,France among few countries with high recovery numbers**
 - 31770738 United States	North America
 - 18953116 India	        Asia
 - 14255230 Brazil	        South America
 - 5573160	France	        Europe
 - 4642465	Russia	        Europe
 
-- **Places with least covid cases and deaths**
+**Places with least covid cases and deaths**
 - 1	1	Vanuatu	Oceania
 - 33	1	Grenada	North America
 - 90	2	Fiji	Oceania
 - 109	3	Brunei	Asia
 - 307	1	Bhutan	Asia
 
-- **Countries with highest populations saw a drop in covid cases from 2020 to 2021, except for indonesia**
+**Countries with highest populations saw a drop in covid cases from 2020 to 2021, except for indonesia**
 - China	1439323776	0.0005	0.0066	-0.0062
 - India	1380004352	0.6448	0.744	-0.0992
 - United States	331002656	3.7002	6.0723	-2.3721
 - Indonesia	273523616	0.3382	0.2717	0.0665
 - Pakistan	220892336	0.1554	0.2183	-0.0629
 
-- **Few places saw increased covid cases in 2021**
+**Few places saw increased covid cases in 2021**
 - Albania	2877800	Europe	2.5286	2.0264	0.5022
 - Antigua and Barbuda	97928	North America	1.0957	0.1624	0.9333
 - Barbados	287371	North America	1.2082	0.1333	1.0749
 - Benin	12123198	Africa	0.0377	0.0268	0.0109
 - Botswana	2351625	Africa	1.3662	0.6296	0.7367
 
-- **Vaccination rate of 10 countries**
+**Vaccination rate of 10 countries**
 - 1.929	India	1380004352
 - 30.636	United States	331002656
 - 2.795	Indonesia	273523616
@@ -107,7 +108,7 @@ or load data using pandas)
 - 0.256	Philippines	109581088
 - 10.795	Turkey	84339064
 
-- **Rolling vaccination rates** 
+**Rolling vaccination rates** 
 - Asia	China	1439323776	12.83
 - Asia	India	1380004352	10.33
 - North America	United States	331002656	68.76
@@ -119,4 +120,4 @@ or load data using pandas)
 - Europe	Russia	145934464	7.73
 - North America	Mexico	128932752	12.56
 
-##**Conclusion** - India, USA,Indonesia, Pakistan among the few populous countries saw the highest covid cases and deaths. They also had highest vaccination rollout rates.
+**Conclusion** - **India, USA,Indonesia, Pakistan among the few populous countries saw the highest covid cases and deaths. They also had highest vaccination rollout rates.**
